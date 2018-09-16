@@ -4,10 +4,10 @@
 
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/dnyaneshwargiri/school_mgmt_system/blob/master/Screenshot%20from%202018-09-16%2008-53-09.png)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/dnyaneshwargiri/school_mgmt_system/blob/master/Screenshot%20from%202018-09-16%2008-53-35.png)
 
 
 
