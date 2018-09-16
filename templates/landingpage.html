@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<style>
+	#mynavabar{
+		
+		}
+</style>
+	
+<body>	
+<div class="container" id='container'>
+
+
+
+<br/>
+<br/>
+<nav class="navbar navbar-expand-lg navbar-light " id="mynavabar" style="background-color:#a1f2f1;height:100px;">
+  <a class="navbar-brand" href="#">Welcome  "{{userid}}" ({{role}})</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Mark Attendance</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Update /Add Marks</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Update  Profile/Change Password</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<br/>
+<br/>
+<br/>
+
+  
+      <div class="panel panel-default" style="text-align: left; height: 100%;">
+      
+      <br/>
+      <div class="panel-body" style="background-color:#b1e7f9;border-radius:5px ;">
+         Notifiactions
+           <ul type="disc">
+			 <li>Tehere is holiday Tomarrow !</li>
+			 <li>Todays  Attendance of Your class 6th is Not filed yet !</li>
+			 <li>Your Password Has been changed !</li>
+		 </ul>
+      
+      </div>
+       
+       
+       
+      </div>
+ 
+
+
+
+<div id="myfooter" class="jumbotron "   style="background-color:#a896eb; text-align: center; height: 100%; margin: 0px; margin-top: 40px; padding: 0px;">
+
+    <p style="color: white;font-size: 20px font-family: 'Eagle Lake', cursive;">
+       
+    <p style="color: white;font-size: 40px; font-family: 'Eagle Lake', cursive;">School Management System </p>
+
+    <a href="#" class="fa fa-facebook" style="font-size: 40px; margin-right: 20px;"></a>
+    <a href="#" class="fa fa-twitter" style="font-size: 40px; margin-right: 20px;"></a>
+    <a href="#" class="fa fa-linkedin" style="font-size: 40px; margin-right: 20px;"></a>
+    <a href="#" class="fa fa-instagram" style="font-size: 40px; margin-right: 20px;"></a>
+    <br/>
+    <br/>
+    <p id="year" style="color: white;font-size: 20px;margin-bottom: 5px; padding-bottom: 0px;"></p>
+</div>
+
+
+
+<!--
+<form action={% url 'nxtpage' %} name="sitenameform" id="sitenameform" class="col-sm-12 col-xs-12 col-lg-12 col-md-12 " method="POST">{%csrf_token %}
+ 
+  <button type="submit" id="submit"  class="btn btn-warning btn-lg form-group text-dark"  >
+	
+  </button>
+</form>
+
+-->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script>
+var d=new Date();
+    var y=d.getFullYear();
+    document.getElementById("year").innerHTML=y+" "+"&copy";
+</script>
+
+</div>
+<body>		
+</html>
+	
