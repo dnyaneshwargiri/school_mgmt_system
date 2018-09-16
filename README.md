@@ -9,6 +9,7 @@
 
 ![alt text](https://github.com/dnyaneshwargiri/school_mgmt_system/blob/master/Screenshot%20from%202018-09-16%2008-53-35.png)
 
+![alt text](https://github.com/dnyaneshwargiri/school_mgmt_system/blob/master/Screenshot%20from%202018-09-16%2010-40-35.png)
 
 
 Need To register app in settings.py of your virtual environment 
